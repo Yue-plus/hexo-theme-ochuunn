@@ -1,19 +1,24 @@
 # head
 menu:
-  カタログ/（目录）: /archives
+  标签: /tags
+  目录: /archives
   # sitemap: /sitemap.xml
   # other menus
 
 rss: /atom.xml
 favicon: /favicon.png
 
-date_format: "YYYY - MM - DD"
+date_format: "YYYY - MM - DD HH:mm:ss"
 
 google_verification: false  # your token
 google_analytics: false     # your id
 
 # post comment
 comment_plugin: false # valine or livere
+
+# mathjax
+mathjax: false # or true
+mathjax_cdn: //cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # valine https://valine.js.org/
 valine:
@@ -43,5 +48,5 @@ icp_link: ""
 reward_images:
   - type: "微信"
     url: "/img/wechat.png"
-  - type: '支付宝'
-    url: '/img/alipay.png'
+  # - type: '支付宝'
+  #   url: '/img/wechat.png'

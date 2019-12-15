@@ -1,5 +1,4 @@
 mixin post(post, index)
-
   article.post
     if index === 'archive'
       header.post__head.archive
@@ -13,7 +12,6 @@ mixin post(post, index)
         if post.excerpt
           div.excerpt
             != post.excerpt
-
     else
       header.post__head
         include gallery.pug
